@@ -1,6 +1,10 @@
 import streamlit as st
 
-st.image("2421002663.jpg")
+col1 = st.columns([1, 5])
+
+with col1:
+    st.image("images/2421002663.jpg", width=80)
+
 
 # Tiêu đề ứng dụng
 st.title("💰 Ứng dụng tính tiền gửi tiết kiệm_Phan Thị Trúc My")
